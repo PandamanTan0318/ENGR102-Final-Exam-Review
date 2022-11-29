@@ -15,4 +15,4 @@ with open("item_cost.dat", "r") as file:
             item_name, item_cost = name, cost
 
 # Output
-print(f"The cheapest item is {item_name}. It costs ${item_cost}.")
+print(f"The most expensive item is {item_name}. It costs ${item_cost}.")
